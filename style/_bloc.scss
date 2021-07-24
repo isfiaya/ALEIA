@@ -1,22 +1,20 @@
 .bloc {
-  padding: 50px;
-  padding-top: 115px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 115px 100px 80px 120px;
   box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
-  width: 80%;
+  width: 85%;
   margin: auto;
   margin-top: -90px;
   position: relative;
   z-index: 100;
   background-color: #ffffff;
   .bloc__left {
+    padding-right: 25px;
     h2 {
       font-family: Montserrat;
-      font-size: 35px;
-      line-height: 1.2;
       font-weight: 600;
       text-align: justify;
+      font-size: 37px;
+      line-height: 48.76px;
     }
   }
   .bloc__right {
@@ -25,6 +23,7 @@
     p {
       color: #807f7f;
       font-size: 19px;
+      font-weight: 600;
       line-height: 25.87px;
       text-align: justify;
       margin-bottom: 40px;
@@ -41,11 +40,10 @@
       font-size: 16px;
       line-height: 21.79px;
       text-align: justify;
-      padding: 10px;
-      padding-right: 15px;
-      padding-left: 15px;
       margin: auto;
       text-decoration: none;
+      font-weight: 700;
+      padding: 14px 23px;
     }
   }
 }
