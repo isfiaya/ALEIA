@@ -58,6 +58,10 @@ nav .nav__contact__fr a:nth-child(2) {
   letter-spacing: -1px;
 }
 
+nav .nav__contact__fr a:hover:nth-child(2) {
+  color: #1d1f22;
+}
+
 nav .logo {
   width: 158px;
   height: 63px;
@@ -91,6 +95,14 @@ nav ul li a {
   border-radius: 15px;
   text-align: center;
   padding: 15px 23px;
+  cursor: pointer;
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+
+.btn__contact:hover {
+  background-image: linear-gradient(47.99deg, #2e8174 100%, #30a996 42.53%, #00ffd9 100%);
+  color: white;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -116,6 +128,10 @@ nav ul li a {
     position: relative;
     z-index: 100000;
     background-image: linear-gradient(47.99deg, #2e8174 0%, #30a996 42.53%, #00ffd9 100%);
+  }
+  .nav__links a {
+    color: white !important;
+    font-weight: 600;
   }
   .navbar-toggler-icon {
     background-image: url(../assets/Burger.png) !important;
@@ -219,6 +235,8 @@ nav ul li a {
   border-radius: 15px;
   padding: 2px;
   margin: auto;
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
 }
 
 .wrapper__btn button {
@@ -229,6 +247,11 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   background-color: #242726;
+}
+
+.wrapper__btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1199px) {
@@ -243,6 +266,7 @@ nav ul li a {
   }
   .main__information h1 {
     line-height: 60.95px !important;
+    font-size: 50px;
   }
   .main__information p {
     font-size: 17px;
@@ -308,8 +332,7 @@ nav ul li a {
   }
   .wrapper__btn button {
     font-size: 12px;
-    width: 108px;
-    height: 37px;
+    padding: 10px 15px;
   }
 }
 
@@ -367,6 +390,13 @@ nav ul li a {
   text-decoration: none;
   font-weight: 700;
   padding: 14px 23px;
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+
+.bloc .bloc__right a:hover {
+  background-image: linear-gradient(47.99deg, #2e8174 100%, #30a996 42.53%, #00ffd9 100%);
+  color: white;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -475,6 +505,13 @@ nav ul li a {
   font-size: 16px;
   line-height: 19px;
   font-weight: bold;
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+
+.bloc__services__main a:hover {
+  background-image: linear-gradient(47.99deg, #2e8174 100%, #30a996 42.53%, #00ffd9 100%);
+  color: white;
 }
 
 .bloc__services {
@@ -669,6 +706,7 @@ footer .footer__logo img {
 
 .footer__input_wrapper .footer__input input {
   padding: 14px;
+  padding-left: 30px;
   width: 280px;
   border-top-left-radius: 15px;
   outline: none;
@@ -680,7 +718,7 @@ footer .footer__logo img {
   color: #bcbaba;
   font-family: Montserrat;
   font-size: 19px;
-  padding-left: 20px;
+  padding-left: 0px;
   font-weight: 600;
 }
 
@@ -688,7 +726,7 @@ footer .footer__logo img {
   color: #bcbaba;
   font-family: Montserrat;
   font-size: 19px;
-  padding-left: 20px;
+  padding-left: 0px;
   font-weight: 600;
 }
 
@@ -696,7 +734,7 @@ footer .footer__logo img {
   color: #bcbaba;
   font-family: Montserrat;
   font-size: 19px;
-  padding-left: 20px;
+  padding-left: 0px;
   font-weight: 600;
 }
 
@@ -704,7 +742,7 @@ footer .footer__logo img {
   color: #bcbaba;
   font-family: Montserrat;
   font-size: 19px;
-  padding-left: 20px;
+  padding-left: 0px;
   font-weight: 600;
 }
 
@@ -718,10 +756,13 @@ footer .footer__logo img {
   border-bottom-right-radius: 15px;
 }
 
+.footer__social-media a {
+  margin-right: 15px;
+}
+
 .footer__social-media img {
   width: 60px;
   height: auto;
-  margin-right: 15px;
 }
 
 .footer__social-media-wrapper {
@@ -847,5 +888,20 @@ footer .footer__logo img {
     font-size: 14px !important;
     font-weight: 600;
   }
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #e3e2e9;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e3e2e9;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #30a996;
 }
 /*# sourceMappingURL=style.css.map */

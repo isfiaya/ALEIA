@@ -4,3 +4,17 @@
 @import "_bloc.scss";
 @import "_services.scss";
 @import "_footer.scss";
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: hsl(250, 12%, 90%);
+  //   visibility: hidden;
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(250, 12%, 90%);
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #30a996;
+}

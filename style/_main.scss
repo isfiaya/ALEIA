@@ -45,6 +45,7 @@
   border-radius: 15px;
   padding: 2px;
   margin: auto;
+  transition: all 150ms ease-out;
   button {
     padding: 12px 23px;
     border: none;
@@ -54,6 +55,9 @@
     color: #fff;
     background-color: #242726;
   }
+}
+.wrapper__btn:hover {
+  transform: scale(1.1);
 }
 @media only screen and (max-width: 1199px) {
   .main {
@@ -66,6 +70,7 @@
     width: 384px !important;
     h1 {
       line-height: 60.95px !important;
+      font-size: 50px;
     }
     p {
       font-size: 17px;
@@ -131,7 +136,6 @@
   }
   .wrapper__btn button {
     font-size: 12px;
-    width: 108px;
-    height: 37px;
+    padding: 10px 15px;
   }
 }

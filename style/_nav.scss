@@ -24,6 +24,9 @@ nav {
     a:nth-child(2) {
       letter-spacing: -1px;
     }
+    a:hover:nth-child(2) {
+      color: #1d1f22;
+    }
   }
   .logo {
     width: 158px;
@@ -56,6 +59,17 @@ nav ul li {
   border-radius: 15px;
   text-align: center;
   padding: 15px 23px;
+  cursor: pointer;
+  transition: all 150ms ease-out;
+}
+.btn__contact:hover {
+  background-image: linear-gradient(
+    47.99deg,
+    #2e8174 100%,
+    #30a996 42.53%,
+    #00ffd9 100%
+  );
+  color: white;
 }
 @media only screen and (max-width: 1199px) {
   header {
@@ -84,6 +98,10 @@ nav ul li {
       rgb(48, 169, 150) 42.53%,
       rgb(0, 255, 217) 100%
     );
+    a {
+      color: white !important;
+      font-weight: 600;
+    }
   }
   .navbar-toggler-icon {
     background-image: url(../assets/Burger.png) !important;

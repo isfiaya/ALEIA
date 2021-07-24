@@ -44,6 +44,16 @@
       text-decoration: none;
       font-weight: 700;
       padding: 14px 23px;
+      transition: all 150ms ease-out;
+    }
+    a:hover {
+      background-image: linear-gradient(
+        47.99deg,
+        #2e8174 100%,
+        #30a996 42.53%,
+        #00ffd9 100%
+      );
+      color: white;
     }
   }
 }
