@@ -19,7 +19,7 @@ a {
 }
 
 nav .nav__logo {
-  width: 15%;
+  width: 22%;
 }
 
 nav .nav__links {
@@ -32,7 +32,7 @@ nav .nav__links {
 }
 
 nav .nav_services {
-  width: 60%;
+  width: 55%;
 }
 
 nav .nav__contact__fr {
@@ -45,13 +45,17 @@ nav .nav__contact__fr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 20%;
+  width: 24%;
 }
 
 nav .nav__contact__fr a {
-  font-weight: 600;
-  color: #000;
+  font-weight: 700;
+  color: #1d1f22;
   text-decoration: none;
+}
+
+nav .nav__contact__fr a:nth-child(2) {
+  letter-spacing: -1px;
 }
 
 nav .logo {
@@ -75,7 +79,7 @@ nav ul {
 
 nav ul li {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 nav ul li a {
@@ -85,9 +89,8 @@ nav ul li a {
 .btn__contact {
   background-image: linear-gradient(47.99deg, #2e8174 0%, #30a996 42.53%, #00ffd9 100%);
   border-radius: 15px;
-  width: 120px;
   text-align: center;
-  padding: 10px;
+  padding: 15px 23px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -154,6 +157,12 @@ nav ul li a {
     padding-top: 10px !important;
     padding-left: 30px;
     padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav__logo {
+    padding-left: 30px;
   }
 }
 
@@ -291,6 +300,7 @@ nav ul li a {
     line-height: 19.07px;
     margin-bottom: 0px;
     text-align: justify;
+    padding-right: 10px;
   }
   .main__information__tech p {
     font-size: 14px;

@@ -1,7 +1,7 @@
 nav {
   // background-color: white;
   .nav__logo {
-    width: 15%;
+    width: 22%;
   }
   .nav__links {
     width: 80%;
@@ -9,17 +9,20 @@ nav {
     justify-content: space-around;
   }
   .nav_services {
-    width: 60%;
+    width: 55%;
   }
   .nav__contact__fr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
+    width: 24%;
     a {
-      font-weight: 600;
-      color: #000;
+      font-weight: 700;
+      color: #1d1f22;
       text-decoration: none;
+    }
+    a:nth-child(2) {
+      letter-spacing: -1px;
     }
   }
   .logo {
@@ -37,7 +40,7 @@ nav {
 }
 nav ul li {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 
   a {
     color: black !important;
@@ -51,9 +54,8 @@ nav ul li {
     #00ffd9 100%
   );
   border-radius: 15px;
-  width: 120px;
   text-align: center;
-  padding: 10px;
+  padding: 15px 23px;
 }
 @media only screen and (max-width: 1199px) {
   header {
@@ -115,5 +117,10 @@ nav ul li {
     padding-top: 10px !important;
     padding-left: 30px;
     padding-right: 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .nav__logo {
+    padding-left: 30px;
   }
 }
