@@ -52,21 +52,28 @@
     text-decoration: none;
     color: #fff;
     width: 145px;
-    background-color: rgb(0, 0, 0);
+    background-color: #1d1f22;
   }
 }
 @media only screen and (max-width: 1199px) {
   .main {
     background-color: #1d1f22;
-    height: 720px;
+    height: 760px;
   }
   .main__information {
     margin-left: 50px;
-    margin-top: 80px;
-    width: 375px !important;
+    margin-top: 50px;
+    width: 384px !important;
+    h1 {
+      line-height: 60.95px !important;
+    }
+    p {
+      font-size: 17px;
+    }
   }
   .main__information__tech {
     margin-bottom: 25px;
+    text-align: justify;
   }
   .wrapper__btn {
     border-radius: 7px;
@@ -77,16 +84,19 @@
   .main__image {
     width: 60%;
     height: 100%;
-    right: -65px;
+
     img {
-      width: 100%;
-      height: fit-content;
+      width: 120%;
+      height: 110%;
     }
   }
 }
 @media only screen and (max-width: 599px) {
   .main {
     height: 650px;
+  }
+  .wrapper__btn {
+    transform: translateX(13px);
   }
   .main__image {
     width: 100%;
