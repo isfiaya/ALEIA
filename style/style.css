@@ -471,6 +471,8 @@ nav ul li a {
   }
   .bloc a {
     font-size: 12px !important;
+    padding: 10px 14px !important;
+    line-height: 16.34px !important;
   }
   .bloc__left h2 {
     font-size: 18px !important;
