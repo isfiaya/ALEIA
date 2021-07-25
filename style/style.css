@@ -188,6 +188,7 @@ nav ul li a {
     -webkit-box-align: normal;
         -ms-flex-align: normal;
             align-items: normal;
+    width: 100px;
   }
 }
 
