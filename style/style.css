@@ -138,21 +138,23 @@ nav ul li a {
     position: relative;
   }
   nav {
-    padding-left: 50px;
     padding-top: 30px !important;
-    padding-right: 20px;
     background-color: #1d1f22;
     margin-bottom: -1px;
   }
   .container-fluid {
     padding-left: 0;
+    padding-right: 0;
+  }
+  .nav__logo {
+    padding-left: 50px;
   }
   .navbar-toggler:focus {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
   .nav__links {
-    padding-left: 12px;
+    padding-left: 60px;
     position: relative;
     z-index: 100000;
     background-image: linear-gradient(47.99deg, #2e8174 0%, #30a996 42.53%, #00ffd9 100%);
@@ -193,6 +195,12 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 599px) {
+  .nav__logo {
+    padding-left: 30px;
+  }
+  .nav__links {
+    padding-left: 35px;
+  }
   .logo {
     width: 100px !important;
   }
@@ -201,7 +209,7 @@ nav ul li a {
   }
   .navbar {
     padding-top: 10px !important;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-right: 0;
   }
 }

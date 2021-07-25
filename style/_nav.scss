@@ -95,20 +95,24 @@ nav ul li {
     position: relative;
   }
   nav {
-    padding-left: 50px;
+    // padding-left: 50px;
     padding-top: 30px !important;
-    padding-right: 20px;
+    // padding-right: 20px;
     background-color: #1d1f22;
     margin-bottom: -1px;
   }
   .container-fluid {
     padding-left: 0;
+    padding-right: 0;
+  }
+  .nav__logo {
+    padding-left: 50px;
   }
   .navbar-toggler:focus {
     box-shadow: none !important;
   }
   .nav__links {
-    padding-left: 12px;
+    padding-left: 60px;
     position: relative;
     z-index: 100000;
     background-image: linear-gradient(
@@ -146,6 +150,12 @@ nav ul li {
   }
 }
 @media only screen and (max-width: 599px) {
+  .nav__logo {
+    padding-left: 30px;
+  }
+  .nav__links {
+    padding-left: 35px;
+  }
   .logo {
     width: 100px !important;
   }
@@ -154,7 +164,7 @@ nav ul li {
   }
   .navbar {
     padding-top: 10px !important;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-right: 0;
   }
 }
